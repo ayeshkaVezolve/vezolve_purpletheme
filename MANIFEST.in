@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include purpletheme *.css
+recursive-include purpletheme *.csv
+recursive-include purpletheme *.html
+recursive-include purpletheme *.ico
+recursive-include purpletheme *.js
+recursive-include purpletheme *.json
+recursive-include purpletheme *.md
+recursive-include purpletheme *.png
+recursive-include purpletheme *.py
+recursive-include purpletheme *.svg
+recursive-include purpletheme *.txt
+recursive-exclude purpletheme *.pyc
